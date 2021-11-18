@@ -1,0 +1,25 @@
+{
+  "name": "@realtby/icons",
+  "version": "0.0.1",
+  "description": "realt.by icons library",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/realtby/icons.git"
+  },
+  "keywords": [
+    "icons",
+    "svg",
+    "lib",
+    "library"
+  ],
+  "author": "realt.by team <admin@realt.by> (https://github.com/realtby)",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/realtby/icons/issues"
+  },
+  "homepage": "https://github.com/realtby/icons#readme"
+}
