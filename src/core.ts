@@ -17,6 +17,7 @@ export const castIconProps = (props: IconProps): BaseIconProps => {
   return {
     height: size ? size : height,
     width: size ? size : width,
+    // TODO: avoid using this global class
     className: cn(className, fill && `fill-current`),
   };
 };
