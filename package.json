@@ -4,7 +4,8 @@
   "description": "realt.by icons library",
   "main": "src/index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "format": "prettier --write src",
+    "lint": "eslint src --ext .ts,.tsx,.js,.jsx,.json --fix --cache --max-warnings=0"
   },
   "peerDependencies": {
     "classnames": "^2.x",
@@ -12,6 +13,7 @@
     "react-dom": "17.0.2"
   },
   "devDependencies": {
+    "@realtby/codestyle": "^0.1.9",
     "classnames": "^2.3.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"

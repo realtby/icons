@@ -1,0 +1,7 @@
+# ide
+.idea/
+.vscode/
+
+# npm
+**/node_modules/*
+package.json

@@ -1,6 +1,8 @@
 # @realtby/icons
 realt.by icons library
 
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+
 ## install
 
 ```bash
@@ -24,7 +26,7 @@ npm i -S @realtby/icons
 import { SuccessIcon } from '@realtby/icons';
 ```
 
-3. render icon, path props:
+3. render icon, pass props:
 
 ```tsx
 <SuccessIcon size={20} className="text-success-500" />
