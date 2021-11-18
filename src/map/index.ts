@@ -1,0 +1,9 @@
+export { default as ChevronDoubleLeftIcon } from './chevron-double-left';
+export { default as CloseRoundedRedIcon } from './close-rounded-red';
+export { default as CloseRoundedWhiteIcon } from './close-rounded-white';
+export { default as DragAreaIcon } from './drag-area';
+export { default as FullscreenIcon } from './fullscreen';
+export { default as LayerIcon } from './layer';
+export { default as MinusIcon } from './minus';
+export { default as PanoramaIcon } from './panorama';
+export { default as PlusIcon } from './plus';

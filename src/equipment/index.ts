@@ -1,0 +1,10 @@
+export { default as ConditionerIcon } from './conditioner';
+export { default as CookerIcon } from './cooker';
+export { default as DishwasherIcon } from './dishwasher';
+export { default as FridgeIcon } from './fridge';
+export { default as InternetIcon } from './internet';
+export { default as MicrowaveIcon } from './microwave';
+export { default as PhoneIcon } from './phone';
+export { default as QuickInternetIcon } from './quick-internet';
+export { default as TvIcon } from './tv';
+export { default as WashingMachineIcon } from './washing-machine';
