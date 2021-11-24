@@ -31,3 +31,11 @@ import { SuccessIcon } from '@realtby/icons';
 ```tsx
 <SuccessIcon size={20} className="text-success-500" />
 ```
+
+## development
+
+```bash
+make install
+make lint
+make build
+```

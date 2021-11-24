@@ -7,4 +7,7 @@ module.exports = {
     './node_modules/@realtby/codestyle/eslint/import',
     './node_modules/@realtby/codestyle/eslint/react',
   ],
+  rules: {
+    'no-restricted-imports': 'off',
+  }
 };
