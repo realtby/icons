@@ -4,6 +4,7 @@ import { castIconProps } from '../core';
 
 const Area = (property: IconProps): ReturnType<React.FC> => {
   const props = castIconProps(property);
+
   return (
     <svg viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
       <g clipPath="url(#prefix__clip0_5564:57778)" fill="#1D2126">

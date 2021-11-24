@@ -6,6 +6,7 @@ export const testId = 'plus-icon';
 
 const Plus = (property: IconProps): ReturnType<React.FC> => {
   const props = castIconProps(property);
+
   return (
     <svg
       data-testid={testId}

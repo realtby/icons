@@ -4,6 +4,7 @@ import { castIconProps } from '../../core';
 
 const More = (property: IconProps): ReturnType<React.FC> => {
   const props = castIconProps(property);
+
   return (
     <svg viewBox="0 0 4 16" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
       <path

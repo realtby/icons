@@ -4,6 +4,7 @@ import { castIconProps } from '../core';
 
 const CloseRoundedWhite = (property: IconProps): ReturnType<React.FC> => {
   const props = castIconProps(property);
+
   return (
     <svg viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
       <path d="M.003 8a8 8 0 1116 0 8 8 0 01-16 0z" fill="#fff" />

@@ -4,6 +4,7 @@ import { castIconProps } from '../core';
 
 const ExitDevices = (property: IconProps): ReturnType<React.FC> => {
   const props = castIconProps(property);
+
   return (
     <svg viewBox="0 0 25 16" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
       <path

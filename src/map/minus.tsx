@@ -4,6 +4,7 @@ import { castIconProps } from '../core';
 
 const Minus = (property: IconProps): ReturnType<React.FC> => {
   const props = castIconProps(property);
+
   return (
     <svg viewBox="0 0 16 2" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
       <path

@@ -4,6 +4,7 @@ import { castIconProps } from '../../core';
 
 const MetroRounded = (property: IconProps): ReturnType<React.FC> => {
   const props = castIconProps(property);
+
   return (
     <svg viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
       <path d="M8.003 9l-5-5v8l2-1V9l3 3 3-3v2l2 1V4l-5 5z" fill="#000" />
