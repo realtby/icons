@@ -22,7 +22,7 @@ build-no-cache: reset-cache build
 
 # reset cache, build & run size-limit
 .PHONY:
-build-size: build-no-cache:
+build-size: build-no-cache
 	npm run size-limit
 
 .PHONY:
