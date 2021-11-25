@@ -1,7 +1,7 @@
 {
   "name": "@realtby/icons",
   "description": "realt.by icons library",
-  "version": "0.0.2-16",
+  "version": "0.1.0",
   "main": "./dist/icons.js",
   "module": "./dist/icons.esm.js",
   "types": "./dist/index.d.ts",
