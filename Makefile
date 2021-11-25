@@ -9,9 +9,21 @@ lint:
 	npm run lint
 
 .PHONY:
+reset-cache:
+	rm -rf node_modules/.cache
+
+.PHONY:
 build:
 	rm -rf dist
 	npm run build
+
+.PHONY:
+build-no-cache: reset-cache build
+
+# reset cache, build & run size-limit
+.PHONY:
+build-size: build-no-cache:
+	npm run size-limit
 
 .PHONY:
 release:
