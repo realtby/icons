@@ -10,4 +10,14 @@ lint:
 
 .PHONY:
 build:
+	rm -rf dist
 	npm run build
+
+.PHONY:
+release:
+	npm run release
+
+# only push new version to npm, for testing
+.PHONY:
+prerelease:
+	npm run pre-release

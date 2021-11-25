@@ -2,19 +2,11 @@ import * as React from 'react';
 import type { IconProps } from '../core';
 import { castIconProps } from '../core';
 
-export const testId = 'plus-icon';
-
 const Plus = (property: IconProps): ReturnType<React.FC> => {
   const props = castIconProps(property);
 
   return (
-    <svg
-      data-testid={testId}
-      viewBox="0 0 16 16"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-      {...props}
-    >
+    <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
       <path
         fillRule="evenodd"
         clipRule="evenodd"

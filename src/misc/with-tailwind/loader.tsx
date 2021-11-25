@@ -3,14 +3,11 @@ import cn from 'classnames';
 import type { IconProps } from '../../core';
 import { castIconProps } from '../../core';
 
-export const testId = 'loader-icon';
-
 const Loader: React.FC<IconProps> = property => {
   const { className, ...props } = castIconProps(property);
 
   return (
     <svg
-      data-testid={testId}
       className={cn('animate-spin ', className)}
       xmlns="http://www.w3.org/2000/svg"
       fill="none"

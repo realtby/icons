@@ -1,13 +1,20 @@
 {
   "name": "@realtby/icons",
-  "version": "0.0.1",
   "description": "realt.by icons library",
+  "version": "0.0.2-16",
+  "main": "./dist/icons.js",
+  "module": "./dist/icons.esm.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist/**"
+  ],
   "sideEffects": false,
   "scripts": {
-    "build": "microbundle -f modern",
-    "dev": "microbundle -w -f modern",
-    "format": "prettier --write src",
-    "lint": "eslint src --ext .ts,.tsx,.js,.jsx,.json --fix --cache --max-warnings=0"
+    "build": "microbundle --jsx React.createElement --jsxImportSource react -f esm,cjs",
+    "format": "prettier --write .",
+    "lint": "eslint src --ext .ts,.tsx,.js,.cjs,.json --fix --cache --max-warnings=0",
+    "release": "release-it",
+    "pre-release": "release-it --no-git"
   },
   "peerDependencies": {
     "classnames": "^2.x",
@@ -17,11 +24,17 @@
   "devDependencies": {
     "@realtby/codestyle": "^0.1.9",
     "@types/react": "^17.0.36",
+    "auto-changelog": "^2.3.0",
     "classnames": "^2.3.1",
     "microbundle": "^0.14.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "release-it": "^14.11.8",
     "typescript": "4.4.4"
+  },
+  "engines": {
+    "node": "~14.17",
+    "npm": "~6.14"
   },
   "repository": {
     "type": "git",
@@ -31,7 +44,8 @@
     "icons",
     "svg",
     "lib",
-    "library"
+    "library",
+    "react"
   ],
   "author": "realt.by team <admin@realt.by> (https://github.com/realtby)",
   "license": "UNLICENSED",
