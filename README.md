@@ -42,4 +42,5 @@ make lint
 make build
 make release # to push new version & generate changelog
 make prerelease # then select pre- version, only push new version to npm, for testing
+make build-size # reset cache, build & run size-limit
 ```
