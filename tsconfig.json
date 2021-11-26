@@ -1,4 +1,6 @@
 {
+  "include": ["src"],
+  "exclude": ["dist", "node_modules"],
   "compilerOptions": {
     /* Visit https://aka.ms/tsconfig.json to read more about this file */
 

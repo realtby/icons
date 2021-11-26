@@ -7,6 +7,7 @@ install:
 lint:
 	npm run format
 	npm run lint
+	npm run type-check
 
 .PHONY:
 reset-cache:

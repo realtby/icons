@@ -15,7 +15,8 @@
     "lint": "eslint src --ext .ts,.tsx,.js,.cjs,.json --fix --cache --max-warnings=0",
     "release": "release-it",
     "pre-release": "release-it --no-git",
-    "size-limit": "size-limit"
+    "size-limit": "size-limit",
+    "type-check": "tsc --pretty --noEmit"
   },
   "peerDependencies": {
     "classnames": "^2.x",
