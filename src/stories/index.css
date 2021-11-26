@@ -1,0 +1,28 @@
+.fill-current,
+.fill-current path {
+  fill: currentColor;
+}
+
+.page-wrapper {
+  background-color: #f1f1f1;
+  border-radius: 25px;
+
+  margin: 10px;
+  padding: 30px;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 140px);
+  justify-content: center;
+}
+
+.icon-wrapper {
+  display: flex;
+  flex-flow: column nowrap;
+  width: min-content;
+  align-items: center;
+}
+
+.sign {
+  text-align: center;
+  width: 120px;
+}

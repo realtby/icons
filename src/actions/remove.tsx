@@ -2,7 +2,7 @@ import * as React from 'react';
 import type { IconProps } from '../core';
 import { castIconProps } from '../core';
 
-const Delete = (property: IconProps): ReturnType<React.FC> => {
+const Remove = (property: IconProps): ReturnType<React.FC> => {
   const props = castIconProps(property);
 
   return (
@@ -21,8 +21,8 @@ const Delete = (property: IconProps): ReturnType<React.FC> => {
   );
 };
 
-Delete.defaultProps = {
+Remove.defaultProps = {
   height: 16,
   width: 16,
 };
-export default Delete;
+export default Remove;
