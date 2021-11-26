@@ -16,4 +16,6 @@ tsconfig.json
 *.hbs
 CHANGELOG.md
 
+# build
 dist
+storybook-static

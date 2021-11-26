@@ -2,6 +2,10 @@
 install:
 	npm i
 
+.PHONY:
+dev:
+	npm run storybook
+
 # prettier + eslint + tsc
 .PHONY:
 lint:

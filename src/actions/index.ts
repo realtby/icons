@@ -3,7 +3,7 @@ export { default as AllActionsIcon } from './all-actions';
 export { default as CameraFillIcon } from './camera-fill';
 export { default as CameraIcon } from './camera';
 export { default as ComplainIcon } from './complain';
-export { default as DeleteIcon } from './delete';
+export { default as RemoveIcon } from './remove';
 export { default as EditFillIcon } from './edit-fill';
 export { default as EditIcon } from './edit';
 export { default as FileImageIcon } from './file-image';

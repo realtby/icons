@@ -5,6 +5,8 @@ realt.by icons library
 [![npm](https://img.shields.io/npm/v/@realtby/icons)](https://www.npmjs.com/package/@realtby/icons)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
+<img width="1341" alt="Screenshot 2021-11-26 at 22 13 17" src="https://user-images.githubusercontent.com/11758660/143626504-408314fa-aaa2-4b19-8ed5-27891750b2fb.png">
+
 ## install
 
 ```bash
@@ -38,6 +40,7 @@ import { SuccessIcon } from '@realtby/icons';
 
 ```bash
 make install
+make dev # run storybook
 make lint
 make build
 make release # to push new version & generate changelog
