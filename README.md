@@ -5,7 +5,7 @@ realt.by icons library
 [![npm](https://img.shields.io/npm/v/@realtby/icons)](https://www.npmjs.com/package/@realtby/icons)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
-<img width="1341" alt="Screenshot 2021-11-26 at 22 13 17" src="https://user-images.githubusercontent.com/11758660/143626504-408314fa-aaa2-4b19-8ed5-27891750b2fb.png">
+<a href="https://realtby.github.io/icons" target="_blank"><img width="1341" alt="realt.by icons storybook" src="https://user-images.githubusercontent.com/11758660/143626504-408314fa-aaa2-4b19-8ed5-27891750b2fb.png"></a>
 
 ## install
 

@@ -18,7 +18,8 @@
     "size-limit": "size-limit",
     "type-check": "tsc --pretty --noEmit",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "deploy": "gh-pages -d storybook-static"
   },
   "peerDependencies": {
     "classnames": "^2.x",
@@ -36,6 +37,7 @@
     "auto-changelog": "^2.3.0",
     "babel-loader": "^8.2.3",
     "classnames": "^2.3.1",
+    "gh-pages": "^3.2.3",
     "html-webpack-plugin": "^5.5.0",
     "microbundle": "^0.14.2",
     "react": "^17.0.2",

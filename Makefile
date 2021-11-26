@@ -38,3 +38,9 @@ release:
 .PHONY:
 prerelease:
 	npm run pre-release
+
+# storybok deploy on gh-pages
+.PHONY:
+deploy:
+	npm run build-storybook
+	npm run deploy
