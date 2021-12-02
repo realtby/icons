@@ -21,3 +21,5 @@ yarn-error.log*
 # build
 dist
 storybook-static
+
+.husky

@@ -19,7 +19,9 @@
     "type-check": "tsc --pretty --noEmit",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "deploy": "gh-pages -d storybook-static"
+    "deploy": "gh-pages -d storybook-static",
+    "postinstall": "husky install",
+    "husky:pre-push": "npm run type-check"
   },
   "peerDependencies": {
     "classnames": "^2.x",
@@ -29,7 +31,7 @@
   "dependencies": {},
   "devDependencies": {
     "@babel/core": "^7.16.0",
-    "@realtby/codestyle": "^0.1.9",
+    "@realtby/codestyle": "^0.1.13",
     "@size-limit/preset-big-lib": "^7.0.3",
     "@storybook/addon-essentials": "^6.4.0",
     "@storybook/react": "^6.4.0",
