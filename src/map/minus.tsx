@@ -6,12 +6,11 @@ const Minus = (property: IconProps): ReturnType<React.FC> => {
   const props = castIconProps(property);
 
   return (
-    <svg viewBox="0 0 16 2" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+    <svg viewBox="0 0 16 2" xmlns="http://www.w3.org/2000/svg" {...props}>
       <path
         fillRule="evenodd"
         clipRule="evenodd"
         d="M.403 1a.6.6 0 01.6-.6h14a.6.6 0 110 1.2h-14a.6.6 0 01-.6-.6z"
-        fill="#1D2126"
       />
     </svg>
   );
