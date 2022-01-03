@@ -1,0 +1,33 @@
+.rotate-left {
+  transform: rotate(90deg);
+}
+
+.rotate-right {
+  transform: rotate(-90deg);
+}
+
+.rotate-up {
+  transform: rotate(180deg);
+}
+
+.rotate-down {
+  transform: rotate(0deg);
+}
+
+.opacity-75 {
+  opacity: 0.75;
+}
+
+.opacity-25 {
+  opacity: 0.25;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(1turn);
+  }
+}
+
+.animate-spin {
+  animation: spin 1s linear infinite;
+}

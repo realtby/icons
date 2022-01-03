@@ -1,19 +1,17 @@
 import * as React from 'react';
 
-import type { IconProps } from '../../core';
-import { castIconProps } from '../../core';
+import type { IconProps } from '../core';
+import { castIconProps } from '../core';
+import styles from '../common.module.css';
 
 const MapProgress: React.FC<IconProps> = property => {
   const props = castIconProps(property);
 
   return (
-    <svg viewBox="0 0 28 36" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+    <svg viewBox="0 0 28 36" xmlns="http://www.w3.org/2000/svg" {...props}>
+      <path d="M28 14.708C28 24.282 14 36 14 36S0 24.282 0 14.708C0 6.585 6.268 0 14 0s14 6.585 14 14.708z" />
       <path
-        d="M28 14.708C28 24.282 14 36 14 36S0 24.282 0 14.708C0 6.585 6.268 0 14 0s14 6.585 14 14.708z"
-        fill="#FF5E12"
-      />
-      <path
-        className="animate-spin"
+        className={styles['animate-spin']}
         style={{
           transformOrigin: '14px 14px',
         }}

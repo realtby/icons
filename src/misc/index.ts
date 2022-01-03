@@ -16,4 +16,6 @@ export { default as SelectBurgerIcon } from './select-burger';
 export { default as StarIcon } from './star';
 export { default as SuccessRoundedIcon } from './success-rounded';
 export { default as VisibleIcon } from './visible';
-export * from './with-tailwind';
+export { default as ArrowIcon } from './arrow';
+export { default as LoaderIcon } from './loader';
+export { default as MapProgressIcon } from './map-progress';
