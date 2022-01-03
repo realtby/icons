@@ -1,5 +1,3 @@
-import cn from 'classnames';
-
 interface BaseIconProps {
   height?: number;
   width?: number;
