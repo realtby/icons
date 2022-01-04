@@ -20,7 +20,6 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "deploy": "gh-pages -d storybook-static",
-    "postinstall": "husky install",
     "husky:pre-push": "npm run type-check"
   },
   "peerDependencies": {

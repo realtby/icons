@@ -1,6 +1,7 @@
 .PHONY:
 install:
-	npm i
+	npm ci --also=dev
+	npx husky install
 
 .PHONY:
 dev:
