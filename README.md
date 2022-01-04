@@ -15,7 +15,13 @@ npm i -S @realtby/icons
 
 ## usage
 
-1. import icons from lib root:
+1. import `icons.css` to your project, for example:
+
+```ts
+import '@realtby/icons/dist/icons.css';
+```
+
+2. import icons from lib root:
 
 ```ts
 import { SuccessIcon } from '@realtby/icons';
