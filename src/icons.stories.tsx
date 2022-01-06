@@ -1,18 +1,18 @@
 import type { Meta } from '@storybook/react';
 
 import * as icons from './icons';
-import * as actions from './actions';
-import * as admin from './admin';
-import * as employees from './employees';
-import * as equipment from './equipment';
-import * as header from './header';
-import * as map from './map';
-import * as messages from './messages';
-import * as misc from './misc';
-import * as objects from './object';
-import * as sidebar from './sidebar';
-import * as socials from './socials';
-import * as status from './status';
+import * as actions from './icons/actions';
+import * as admin from './icons/admin';
+import * as employees from './icons/employees';
+import * as equipment from './icons/equipment';
+import * as header from './icons/header';
+import * as map from './icons/map';
+import * as messages from './icons/messages';
+import * as misc from './icons/misc';
+import * as objects from './icons/object';
+import * as sidebar from './icons/sidebar';
+import * as socials from './icons/socials';
+import * as status from './icons/status';
 
 import './stories/index.css';
 import renderIconsStory from './stories/render';
