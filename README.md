@@ -43,4 +43,50 @@ make build
 make release # to push new version & generate changelog
 make prerelease # then select pre- version, only push new version to npm, for testing
 make build-size # reset cache, build & run size-limit
+make size-limit-generate # generate icon size limit
+```
+
+## How add svg to the library
+
+1. Copy the raw `svg` (for example: `login.svg`) and put it in the desired folder in `src/icons` (for example: `admin`):
+
+```
+  src/
+      icons/
+            ...
+            admin/
+                  ...
+                  login.svg
+```
+
+2. Run `svg:processing` script for the `admin` folder:
+
+```
+  $ npm run svg:processing src/icons/admin
+```
+
+3. Check result:
+
+```
+  src/
+      icons/
+            ...
+            admin/
+                  ...
+                  login.optimized.svg
+                  login.tsx
+                  index.tsx
+```
+
+> Note: Processing performs an average optimization.
+> For the best result, optimize the icon manually in
+> the [SVGOMG](https://jakearchibald.github.io/svgomg/) service,
+> save it to a file with the extension `.optimized.svg` and
+> run `svg:processing` again.
+
+4. Generate icon size-limit:
+
+```
+$ make build
+$ make size-limit-generate
 ```

@@ -32,6 +32,10 @@ build-size: build-no-cache
 	npm run size-limit
 
 .PHONY:
+size-limit-generate:
+	npm run size-limit-generate
+
+.PHONY:
 release:
 	npm run release
 

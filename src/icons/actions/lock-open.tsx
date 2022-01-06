@@ -1,0 +1,23 @@
+import * as React from 'react';
+import type { IconProps } from '../../core';
+import { castIconProps } from '../../core';
+
+const LockOpen = (property: IconProps): ReturnType<React.FC> => {
+  const props = castIconProps(property);
+
+  return (
+    <svg viewBox="0 0 17 16" {...props}>
+      <path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M8 4a4 4 0 1 1 8 0v3a1 1 0 1 1-2 0V4a2 2 0 1 0-4 0v3h.5A1.5 1.5 0 0 1 12 8.5v6a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 0 14.5v-6A1.5 1.5 0 0 1 1.5 7H8V4zm-3.5 7.5a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0z"
+      />
+    </svg>
+  );
+};
+
+LockOpen.defaultProps = {
+  height: 16,
+  width: 16,
+};
+export default LockOpen;
