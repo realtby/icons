@@ -22,7 +22,8 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "deploy": "gh-pages -d storybook-static",
-    "husky:pre-push": "npm run type-check"
+    "husky:pre-push": "npm run type-check",
+    "commit": "git-cz"
   },
   "peerDependencies": {
     "classnames": "^2.x",

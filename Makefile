@@ -49,3 +49,8 @@ prerelease:
 deploy:
 	npm run build-storybook
 	npm run deploy
+
+# run git-cz
+.PHONY: commit
+commit:
+	npm run commit

@@ -4,35 +4,35 @@ module.exports = [
     path: './dist/icons.esm.js',
     import: '{ VkIcon }',
     running: false,
-    limit: '1478 B',
+    limit: '1 KB',
   },
   {
     name: '> tree-shaking: CloseIcon',
     path: './dist/icons.esm.js',
     import: '{ CloseIcon }',
     running: false,
-    limit: '570 B',
+    limit: '414 B',
   },
   {
     name: '> tree-shaking: FlameIcon',
     path: './dist/icons.esm.js',
     import: '{ FlameIcon }',
     running: false,
-    limit: '1023 B',
+    limit: '785 B',
   },
   {
     name: '> tree-shaking: MapIcon',
     path: './dist/icons.esm.js',
     import: '{ MapIcon }',
     running: false,
-    limit: '671 B',
+    limit: '490 B',
   },
   {
     name: '> tree-shaking: TvIcon',
     path: './dist/icons.esm.js',
     import: '{ TvIcon }',
     running: false,
-    limit: '641 B',
+    limit: '481 B',
   },
   {
     name: '> tree-shaking: ActiveIcon',
@@ -81,6 +81,7 @@ module.exports = [
     path: './dist/icons.esm.js',
     import: '{ AreaIcon }',
     running: false,
+    limit: '1.14 KB',
   },
   {
     name: '> tree-shaking: ArrowIcon',
@@ -189,6 +190,7 @@ module.exports = [
     path: './dist/icons.esm.js',
     import: '{ ConditionerIcon }',
     running: false,
+    limit: '914 B',
   },
   {
     name: '> tree-shaking: CookerIcon',
@@ -207,6 +209,7 @@ module.exports = [
     path: './dist/icons.esm.js',
     import: '{ CurrencyIcon }',
     running: false,
+    limit: '1.07 KB',
   },
   {
     name: '> tree-shaking: DangerIcon',
@@ -219,6 +222,7 @@ module.exports = [
     path: './dist/icons.esm.js',
     import: '{ DeleteProfileIcon }',
     running: false,
+    limit: '1.35 KB',
   },
   {
     name: '> tree-shaking: DeliveredIcon',
@@ -237,12 +241,14 @@ module.exports = [
     path: './dist/icons.esm.js',
     import: '{ DocSettingIcon }',
     running: false,
+    limit: '843 B',
   },
   {
     name: '> tree-shaking: DragAreaIcon',
     path: './dist/icons.esm.js',
     import: '{ DragAreaIcon }',
     running: false,
+    limit: '945 B',
   },
   {
     name: '> tree-shaking: EditFillIcon',
@@ -357,6 +363,7 @@ module.exports = [
     path: './dist/icons.esm.js',
     import: '{ HiddenBoldIcon }',
     running: false,
+    limit: '851 B',
   },
   {
     name: '> tree-shaking: HiddenIcon',
@@ -429,6 +436,7 @@ module.exports = [
     path: './dist/icons.esm.js',
     import: '{ LegalInfoIcon }',
     running: false,
+    limit: '912 B',
   },
   {
     name: '> tree-shaking: LinkIcon',
@@ -501,6 +509,7 @@ module.exports = [
     path: './dist/icons.esm.js',
     import: '{ MessagesIcon }',
     running: false,
+    limit: '1.35 KB',
   },
   {
     name: '> tree-shaking: MetroIcon',
@@ -681,6 +690,7 @@ module.exports = [
     path: './dist/icons.esm.js',
     import: '{ ProfileProIcon }',
     running: false,
+    limit: '1.21 KB',
   },
   {
     name: '> tree-shaking: ProhibitedIcon',
@@ -693,6 +703,7 @@ module.exports = [
     path: './dist/icons.esm.js',
     import: '{ QuickInternetIcon }',
     running: false,
+    limit: '940 B',
   },
   {
     name: '> tree-shaking: ReadIcon',
@@ -759,6 +770,7 @@ module.exports = [
     path: './dist/icons.esm.js',
     import: '{ SiteIcon }',
     running: false,
+    limit: '866 B',
   },
   {
     name: '> tree-shaking: SlidersIcon',
@@ -831,6 +843,7 @@ module.exports = [
     path: './dist/icons.esm.js',
     import: '{ ViberIcon }',
     running: false,
+    limit: '942 B',
   },
   {
     name: '> tree-shaking: VisibleBoldIcon',
@@ -843,6 +856,7 @@ module.exports = [
     path: './dist/icons.esm.js',
     import: '{ VisibleIcon }',
     running: false,
+    limit: '786 B',
   },
   {
     name: '> tree-shaking: WarningIcon',
