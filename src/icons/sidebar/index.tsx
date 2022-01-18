@@ -2,7 +2,6 @@ export { default as DeleteProfileIcon } from './delete-profile';
 export { default as DocSettingIcon } from './doc-setting';
 export { default as ExitDevicesIcon } from './exit-devices';
 export { default as ExitIcon } from './exit';
-export { default as HeartIcon } from './heart';
 export { default as InstructionIcon } from './instruction';
 export { default as LegalInfoIcon } from './legal-info';
 export { default as MessagesIcon } from './messages';
