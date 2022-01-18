@@ -900,4 +900,16 @@ module.exports = [
     import: '{ castIconProps }',
     running: false,
   },
+  {
+    name: '> tree-shaking: GoogleNoFillIcon',
+    path: './dist/icons.esm.js',
+    import: '{ GoogleNoFillIcon }',
+    running: false,
+  },
+  {
+    name: '> tree-shaking: InstagramNoFillIcon',
+    path: './dist/icons.esm.js',
+    import: '{ InstagramNoFillIcon }',
+    running: false,
+  },
 ];
