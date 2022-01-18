@@ -46,10 +46,10 @@ void (async function main() {
   const fileNames = await readdir(PATH_TO_SVG_FOLDER);
 
   const svgFileNames = fileNames.filter(file => file.endsWith(SVG_EXT));
-  const svgOptimizedFileName = svgFileNames.filter(file => !file.endsWith(OPTIMIZED_SVG_EXT));
+  const svgNotOptimizedFileName = svgFileNames.filter(file => !file.endsWith(OPTIMIZED_SVG_EXT));
 
-  if (svgOptimizedFileName.length) {
-    await Promise.all(svgFileNames.map(fileName => optimizeSvg(fileName)));
+  if (svgNotOptimizedFileName.length) {
+    await Promise.all(svgNotOptimizedFileName.map(fileName => optimizeSvg(fileName)));
   } else {
     console.log('> Not svg found for optimization');
   }
