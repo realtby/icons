@@ -341,12 +341,6 @@ module.exports = [
     running: false,
   },
   {
-    name: '> tree-shaking: HeartFillIcon',
-    path: './dist/icons.esm.js',
-    import: '{ HeartFillIcon }',
-    running: false,
-  },
-  {
     name: '> tree-shaking: HeartIcon',
     path: './dist/icons.esm.js',
     import: '{ HeartIcon }',
