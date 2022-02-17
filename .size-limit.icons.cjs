@@ -906,4 +906,10 @@ module.exports = [
     import: '{ InstagramNoFillIcon }',
     running: false,
   },
+  {
+    name: '> tree-shaking: DownloadIcon',
+    path: './dist/icons.esm.js',
+    import: '{ DownloadIcon }',
+    running: false,
+  },
 ];
