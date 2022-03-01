@@ -912,4 +912,16 @@ module.exports = [
     import: '{ DownloadIcon }',
     running: false,
   },
+  {
+    name: '> tree-shaking: AddAdvertIcon',
+    path: './dist/icons.esm.js',
+    import: '{ AddAdvertIcon }',
+    running: false,
+  },
+  {
+    name: '> tree-shaking: ArrowBackIcon',
+    path: './dist/icons.esm.js',
+    import: '{ ArrowBackIcon }',
+    running: false,
+  },
 ];
