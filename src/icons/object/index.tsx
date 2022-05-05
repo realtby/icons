@@ -8,3 +8,5 @@ export { default as PhotosIcon } from './photos';
 export { default as PriceIcon } from './price';
 export { default as RegionIcon } from './region';
 export { default as StreetIcon } from './street';
+export * from './card';
+export * from './search';
