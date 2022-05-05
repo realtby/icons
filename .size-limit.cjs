@@ -6,13 +6,13 @@ module.exports = [
     path: './dist/icons.js',
     running: false,
     webpack: false,
-    limit: '36 kb',
+    limit: '31 kb',
   },
   {
     name: '[esm] bundle',
     path: './dist/icons.esm.js',
     running: false,
     webpack: false,
-    limit: '35 kb',
+    limit: '31 kb',
   },
 ].concat(iconsSizeLimit);

@@ -576,6 +576,7 @@ module.exports = [
     path: './dist/icons.esm.js',
     import: '{ NumberA1Icon }',
     running: false,
+    limit: '240 B',
   },
   {
     name: '> tree-shaking: NumberLifeIcon',
@@ -922,6 +923,18 @@ module.exports = [
     name: '> tree-shaking: ArrowBackIcon',
     path: './dist/icons.esm.js',
     import: '{ ArrowBackIcon }',
+    running: false,
+  },
+  {
+    name: '> tree-shaking: DistrictIcon',
+    path: './dist/icons.esm.js',
+    import: '{ DistrictIcon }',
+    running: false,
+  },
+  {
+    name: '> tree-shaking: RegionIcon',
+    path: './dist/icons.esm.js',
+    import: '{ RegionIcon }',
     running: false,
   },
 ];
