@@ -2,7 +2,6 @@
 
 This example shows how to icons tree-shaking works on Next.js.
 
-
 ## How to use
 
 Install dependencies:
@@ -18,4 +17,3 @@ $ npm run build
 ```
 
 Analyze client `icons.esm.js` chunk, size.
-
