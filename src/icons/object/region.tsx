@@ -6,8 +6,8 @@ const Region = (property: IconProps): ReturnType<React.FC> => {
   const props = castIconProps(property);
 
   return (
-    <svg fill="none" {...props}>
-      <g clipPath="url(#t8y-a)" fill="#1D2126">
+    <svg viewBox="0 0 17 16" {...props}>
+      <g clipPath="url(#t9x-a)">
         <path d="M5 14V4L0 6v10l5-2ZM16 14V6.5L14.25 9c-.8 1-1.473 1-1.75 1-.277 0-.962-.235-1.5-1v7l5-2ZM6 14V4l2.42 1.21C8.853 6.364 9.22 6.971 10 8v8l-4-2Z" />
         <path
           fillRule="evenodd"
@@ -16,7 +16,7 @@ const Region = (property: IconProps): ReturnType<React.FC> => {
         />
       </g>
       <defs>
-        <clipPath id="t8y-a">
+        <clipPath id="t9x-a">
           <path fill="#fff" transform="translate(.003)" d="M0 0h16v16H0z" />
         </clipPath>
       </defs>
