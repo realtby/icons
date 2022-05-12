@@ -9,5 +9,6 @@ module.exports = {
   ],
   rules: {
     'no-restricted-imports': 'off',
+    'import/no-default-export': 'off',
   },
 };
