@@ -937,4 +937,10 @@ module.exports = [
     import: '{ RegionIcon }',
     running: false,
   },
+  {
+    name: '> tree-shaking: FilterIcon',
+    path: './dist/icons.esm.js',
+    import: '{ FilterIcon }',
+    running: false,
+  },
 ];
