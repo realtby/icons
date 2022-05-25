@@ -17,4 +17,5 @@ export { default as NotifyNoIcon } from './notify-no';
 export { default as NotifyYesIcon } from './notify-yes';
 export { default as RemoveIcon } from './remove';
 export { default as ShareIcon } from './share';
+export { default as TrackIcon } from './track';
 export { default as VisibleBoldIcon } from './visible-bold';

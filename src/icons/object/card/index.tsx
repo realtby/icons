@@ -1,5 +1,6 @@
 export { default as ActiveIcon } from './active';
 export { default as BusIcon } from './bus';
+export { default as CarIcon } from './car';
 export { default as ChevronDoubleUpIcon } from './chevron-double-up';
 export { default as CommentIcon } from './comment';
 export { default as CopyIcon } from './copy';
