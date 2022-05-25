@@ -1,18 +1,14 @@
 .page-wrapper {
-  background-color: #f1f1f1;
-  border-radius: 25px;
   cursor: pointer;
 
-  margin: 10px;
-  padding: 30px;
-
   display: grid;
-  grid-template-columns: repeat(auto-fit, 140px);
-  justify-content: center;
+  grid-template-columns: repeat(auto-fit, 120px);
+  justify-content: start;
+  gap: 16px;
 }
 
 .icon-fill {
-  color: #36b368;
+  color: #1e62e7;
 }
 
 .icon-wrapper {
@@ -20,9 +16,20 @@
   flex-flow: column nowrap;
   width: min-content;
   align-items: center;
+  width: 100%;
+  padding: 8px 0;
+  background: #ebecee;
+  border-radius: 6px;
 }
 
 .sign {
   text-align: center;
-  width: 120px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  margin: 0;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
+  padding-top: 8px;
+  color: black;
 }

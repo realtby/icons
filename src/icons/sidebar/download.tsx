@@ -6,17 +6,8 @@ const Download = (property: IconProps): ReturnType<React.FC> => {
   const props = castIconProps(property);
 
   return (
-    <svg viewBox="0 0 23 18" {...props}>
-      <path
-        fillRule="evenodd"
-        clipRule="evenodd"
-        d="m7.964 11.172 3.182 3.182a.5.5 0 0 0 .708 0l3.182-3.182a.5.5 0 1 0-.708-.708L12 12.793V1a.5.5 0 0 0-1 0v11.793l-2.328-2.329a.5.5 0 1 0-.708.708Z"
-      />
-      <path
-        fillRule="evenodd"
-        clipRule="evenodd"
-        d="M1 13.5a.5.5 0 0 1 .5.5v3a.5.5 0 0 0 .5.5h19a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 1 1 0v3a1.5 1.5 0 0 1-1.5 1.5H2A1.5 1.5 0 0 1 .5 17v-3a.5.5 0 0 1 .5-.5Z"
-      />
+    <svg viewBox="0 0 25 24" fill="none" {...props}>
+      <path d="M11.5 3.5a.5.5 0 0 1 1 0h-1Zm.854 13.354a.5.5 0 0 1-.708 0l-3.182-3.182a.5.5 0 1 1 .708-.708L12 15.793l2.828-2.829a.5.5 0 1 1 .708.708l-3.182 3.182ZM12.5 3.5v13h-1v-13h1ZM2 16.5a.5.5 0 0 0-1 0h1Zm21 0a.5.5 0 0 0-1 0h1Zm0 3v-3h-1v3h1Zm-22-3v3h1v-3H1ZM2.5 21h19v-1h-19v1ZM1 19.5A1.5 1.5 0 0 0 2.5 21v-1a.5.5 0 0 1-.5-.5H1Zm21 0a.5.5 0 0 1-.5.5v1a1.5 1.5 0 0 0 1.5-1.5h-1Z" />
     </svg>
   );
 };

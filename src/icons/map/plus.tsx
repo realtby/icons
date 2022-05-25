@@ -6,12 +6,18 @@ const Plus = (property: IconProps): ReturnType<React.FC> => {
   const props = castIconProps(property);
 
   return (
-    <svg viewBox="0 0 16 16" {...props}>
-      <path
-        fillRule="evenodd"
-        clipRule="evenodd"
-        d="M8.003.4a.6.6 0 0 1 .6.6v6.4h6.4a.6.6 0 1 1 0 1.2h-6.4V15a.6.6 0 1 1-1.2 0V8.6h-6.4a.6.6 0 1 1 0-1.2h6.4V1a.6.6 0 0 1 .6-.6z"
-      />
+    <svg viewBox="0 0 17 16" fill="none" {...props}>
+      <g clipPath="url(#641-a)">
+        <path
+          clipRule="evenodd"
+          d="M8.015 0c.348 0 .631.283.631.632v6.736h6.737a.632.632 0 0 1 0 1.264H8.646v6.736a.632.632 0 0 1-1.263 0V8.632H.646a.632.632 0 0 1 0-1.264h6.737V.632c0-.35.283-.632.632-.632Z"
+        />
+      </g>
+      <defs>
+        <clipPath id="641-a">
+          <path fill="#fff" transform="translate(.003)" d="M0 0h16v16H0z" />
+        </clipPath>
+      </defs>
     </svg>
   );
 };

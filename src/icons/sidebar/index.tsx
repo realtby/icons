@@ -1,6 +1,7 @@
 export { default as DeleteProfileIcon } from './delete-profile';
 export { default as DocSettingIcon } from './doc-setting';
 export { default as DownloadIcon } from './download';
+export { default as EnterIcon } from './enter';
 export { default as ExitDevicesIcon } from './exit-devices';
 export { default as ExitIcon } from './exit';
 export { default as InstructionIcon } from './instruction';
