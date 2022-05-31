@@ -7,7 +7,7 @@ const NumberA1 = (property: IconProps): ReturnType<React.FC> => {
 
   return (
     <svg viewBox="0 0 17 16" fill="none" {...props}>
-      <g clipPath="url(#kmn-a)">
+      <g clipPath="url(#f4h-a)">
         <path
           d="M16 .496 15.504 0v10.28L16 9.968V.496ZM12.184 5.04l-.864-.12a12.16 12.16 0 0 0 2.04-1.16v.68c-.37.241-.76.447-1.168.616l-.008-.016Z"
           fill="#000"
@@ -29,7 +29,7 @@ const NumberA1 = (property: IconProps): ReturnType<React.FC> => {
         />
       </g>
       <defs>
-        <clipPath id="kmn-a">
+        <clipPath id="f4h-a">
           <path fill="#fff" transform="translate(.003)" d="M0 0h16v16H0z" />
         </clipPath>
       </defs>
