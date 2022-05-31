@@ -6,12 +6,8 @@ const Close = (property: IconProps): ReturnType<React.FC> => {
   const props = castIconProps(property);
 
   return (
-    <svg viewBox="0 0 17 16" {...props}>
-      <path
-        fillRule="evenodd"
-        clipRule="evenodd"
-        d="M.296.293a1 1 0 0 1 1.414 0l6.293 6.293L14.296.293a1 1 0 1 1 1.414 1.414L9.417 8l6.293 6.293a1 1 0 1 1-1.414 1.414L8.003 9.414 1.71 15.707a1 1 0 0 1-1.414-1.414L6.589 8 .296 1.707a1 1 0 0 1 0-1.414z"
-      />
+    <svg viewBox="0 0 11 10" fill="none" {...props}>
+      <path d="M9.759 1.423A.833.833 0 1 0 8.58.244L5.003 3.821 1.426.244A.833.833 0 1 0 .247 1.423L3.824 5 .247 8.577a.833.833 0 1 0 1.179 1.179l3.577-3.577L8.58 9.756A.833.833 0 1 0 9.76 8.577L6.18 5 9.76 1.423Z" />
     </svg>
   );
 };

@@ -6,11 +6,10 @@ const CheckGroup = (property: IconProps): ReturnType<React.FC> => {
   const props = castIconProps(property);
 
   return (
-    <svg viewBox="0 0 13 4" {...props}>
+    <svg viewBox="0 0 13 4" fill="none" {...props}>
       <path
-        fillRule="evenodd"
         clipRule="evenodd"
-        d="M.003 2a1.3 1.3 0 0 1 1.3-1.3h9.4a1.3 1.3 0 1 1 0 2.6h-9.4A1.3 1.3 0 0 1 .003 2z"
+        d="M.003 2.2c0-.828.582-1.5 1.3-1.5h9.4c.718 0 1.3.672 1.3 1.5s-.582 1.5-1.3 1.5h-9.4c-.718 0-1.3-.672-1.3-1.5Z"
       />
     </svg>
   );
