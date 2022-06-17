@@ -24,3 +24,4 @@ export { default as StarIcon } from './star';
 export { default as SuccessRoundedIcon } from './success-rounded';
 export { default as ThreeDIcon } from './three-d';
 export { default as VisibleIcon } from './visible';
+export { default as VideoIcon } from './video';
