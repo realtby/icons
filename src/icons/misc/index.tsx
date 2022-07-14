@@ -12,6 +12,7 @@ export { default as CallIcon } from './call';
 export { default as CheckGroupIcon } from './check-group';
 export { default as CheckIcon } from './check';
 export { default as CloseIcon } from './close';
+export { default as CloseBtnIcon } from './close-btn';
 export { default as HelperIcon } from './helper';
 export { default as HiddenIcon } from './hidden';
 export { default as LabelSortIcon } from './label-sort';
