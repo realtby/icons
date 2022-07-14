@@ -1021,4 +1021,10 @@ module.exports = [
     import: '{ VideoIcon }',
     running: false,
   },
+  {
+    name: '> tree-shaking: CloseBtnIcon',
+    path: './dist/icons.esm.js',
+    import: '{ CloseBtnIcon }',
+    running: false,
+  },
 ];
