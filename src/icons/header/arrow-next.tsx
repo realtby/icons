@@ -2,7 +2,7 @@ import * as React from 'react';
 import type { IconProps } from '../../core';
 import { castIconProps } from '../../core';
 
-const CloseBtn = (property: IconProps): ReturnType<React.FC> => {
+const ArrowNext = (property: IconProps): ReturnType<React.FC> => {
   const props = castIconProps(property);
 
   return (
@@ -10,14 +10,14 @@ const CloseBtn = (property: IconProps): ReturnType<React.FC> => {
       <path
         fillRule="evenodd"
         clipRule="evenodd"
-        d="M4.076 4.076a.6.6 0 0 1 .848 0L12 11.152l7.076-7.076a.6.6 0 0 1 .848.848L12.848 12l7.076 7.076a.6.6 0 1 1-.848.848L12 12.85l-7.076 7.075a.6.6 0 0 1-.848-.848L11.15 12 4.076 4.924a.6.6 0 0 1 0-.848Z"
+        d="M8.296 3.293a1 1 0 0 0 0 1.414L15.589 12l-7.293 7.293a1 1 0 1 0 1.414 1.414l8-8a1 1 0 0 0 0-1.414l-8-8a1 1 0 0 0-1.414 0Z"
       />
     </svg>
   );
 };
 
-CloseBtn.defaultProps = {
+ArrowNext.defaultProps = {
   height: 24,
   width: 24,
 };
-export default CloseBtn;
+export default ArrowNext;

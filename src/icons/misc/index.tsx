@@ -1,6 +1,7 @@
 export { default as LoaderIcon } from './loader';
 export { default as MapProgressIcon } from './map-progress';
 export { default as AlertIcon } from './alert';
+export { default as AlertBtnIcon } from './alert-btn';
 export { default as ArrowDownIcon } from './arrow-down';
 export { default as ArrowLeftIcon } from './arrow-left';
 export { default as ArrowRightIcon } from './arrow-right';

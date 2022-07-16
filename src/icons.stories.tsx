@@ -12,12 +12,14 @@ import * as objects from './icons/object';
 import * as sidebar from './icons/sidebar';
 import * as socials from './icons/socials';
 import * as status from './icons/status';
+import * as redesign from './icons/redesign';
 
 import './stories/index.css';
 import renderIconsStory from './stories/render';
 
 export const All = () => (
   <>
+    <Redesigned />
     <Actions />
     <Admin />
     <Employees />
@@ -32,6 +34,7 @@ export const All = () => (
     <Status />
   </>
 );
+export const Redesigned = renderIconsStory(redesign, 'redesigned', true);
 export const Actions = renderIconsStory(actions, 'actions');
 export const Admin = renderIconsStory(admin, 'admin');
 export const Employees = renderIconsStory(employees, 'employees');

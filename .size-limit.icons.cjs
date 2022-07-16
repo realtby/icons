@@ -1027,4 +1027,28 @@ module.exports = [
     import: '{ CloseBtnIcon }',
     running: false,
   },
+  {
+    name: '> tree-shaking: AlertBtnIcon',
+    path: './dist/icons.esm.js',
+    import: '{ AlertBtnIcon }',
+    running: false,
+  },
+  {
+    name: '> tree-shaking: ArrowNextIcon',
+    path: './dist/icons.esm.js',
+    import: '{ ArrowNextIcon }',
+    running: false,
+  },
+  {
+    name: '> tree-shaking: HeartBoldIcon',
+    path: './dist/icons.esm.js',
+    import: '{ HeartBoldIcon }',
+    running: false,
+  },
+  {
+    name: '> tree-shaking: HeartFillIcon',
+    path: './dist/icons.esm.js',
+    import: '{ HeartFillIcon }',
+    running: false,
+  },
 ];
