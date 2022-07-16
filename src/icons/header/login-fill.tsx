@@ -6,18 +6,18 @@ const LoginFill = (property: IconProps): ReturnType<React.FC> => {
   const props = castIconProps(property);
 
   return (
-    <svg viewBox="0 0 14 16" {...props}>
+    <svg viewBox="0 0 24 24" {...props}>
       <path
         fillRule="evenodd"
         clipRule="evenodd"
-        d="M8.8 6.81a3.33 3.33 0 1 0-3.59 0A6.23 6.23 0 0 0 .34 12.9c0 .59.27 1.19.86 1.46.92.41 2.73.98 5.8.98s4.89-.57 5.8-.98c.6-.27.87-.87.87-1.46a6.23 6.23 0 0 0-4.88-6.08z"
+        d="M14.15 10.544a4.11 4.11 0 0 0 1.853-3.453c0-2.26-1.79-4.091-4-4.091s-4 1.832-4 4.09a4.11 4.11 0 0 0 1.854 3.454c-3.35.756-5.854 3.81-5.854 7.462 0 .718.33 1.452 1.04 1.783C6.14 20.3 8.315 21 12.003 21c3.687 0 5.863-.7 6.96-1.21.71-.332 1.04-1.066 1.04-1.784 0-3.652-2.505-6.706-5.854-7.462Z"
       />
     </svg>
   );
 };
 
 LoginFill.defaultProps = {
-  height: 16,
-  width: 16,
+  height: 24,
+  width: 24,
 };
 export default LoginFill;
