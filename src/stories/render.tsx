@@ -33,7 +33,7 @@ const renderIconsStory =
         >
           {Object.entries(icons).map(([name, Icon]) => (
             <div key={name} className="icon-wrapper">
-              <Icon size={48} className={cn({ outline })} />
+              <Icon {...adjustSize(Icon.defaultProps, 48, outline)} className={cn({ outline })} />
               <p className="sign">{name.replace('Icon', '')}</p>
             </div>
           ))}
@@ -43,3 +43,20 @@ const renderIconsStory =
   };
 
 export default renderIconsStory;
+
+const adjustSize = (defaultProps: IconProps | undefined, size = 48, realProportion?: boolean) => {
+  const { height, width } = defaultProps || {};
+
+  if (!realProportion || height === width || !(height && width)) {
+    return {
+      size,
+    };
+  }
+
+  const times = size / Math.max(height, width);
+
+  return {
+    height: height * times,
+    width: width * times,
+  };
+};

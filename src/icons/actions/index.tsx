@@ -5,6 +5,8 @@ export { default as CameraIcon } from './camera';
 export { default as ComplainIcon } from './complain';
 export { default as EditFillIcon } from './edit-fill';
 export { default as EditIcon } from './edit';
+export { default as EditLargeIcon } from './edit-large';
+export { default as EditLargeBoldIcon } from './edit-large-bold';
 export { default as FileImageIcon } from './file-image';
 export { default as FilterIcon } from './filter';
 export { default as HeartIcon } from './heart';
