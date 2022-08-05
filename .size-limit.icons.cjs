@@ -1051,4 +1051,16 @@ module.exports = [
     import: '{ HeartFillIcon }',
     running: false,
   },
+  {
+    name: '> tree-shaking: EditLargeBoldIcon',
+    path: './dist/icons.esm.js',
+    import: '{ EditLargeBoldIcon }',
+    running: false,
+  },
+  {
+    name: '> tree-shaking: EditLargeIcon',
+    path: './dist/icons.esm.js',
+    import: '{ EditLargeIcon }',
+    running: false,
+  },
 ];
