@@ -12,3 +12,4 @@ export { default as EditLargeBoldIcon } from './actions/edit-large-bold';
 export { default as InfoIcon } from './status/info';
 export { default as MoreIcon } from './object/card/more';
 export { default as FlameIcon } from './object/card/flame';
+export { default as FullscreenIcon } from './map/fullscreen';
