@@ -1063,4 +1063,10 @@ module.exports = [
     import: '{ EditLargeIcon }',
     running: false,
   },
+  {
+    name: '> tree-shaking: CloserRoundedWithBorderIcon',
+    path: './dist/icons.esm.js',
+    import: '{ CloserRoundedWithBorderIcon }',
+    running: false,
+  },
 ];

@@ -17,6 +17,7 @@ import * as redesign from './icons/redesign';
 import './stories/index.css';
 import renderIconsStory from './stories/render';
 
+// eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
 export const All = () => (
   <>
     <Redesigned />

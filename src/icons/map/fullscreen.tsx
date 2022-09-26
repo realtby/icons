@@ -17,7 +17,7 @@ const Fullscreen = (property: IconProps): ReturnType<React.FC> => {
 };
 
 Fullscreen.defaultProps = {
-  height: 24,
-  width: 24,
+  height: 16,
+  width: 16,
 };
 export default Fullscreen;

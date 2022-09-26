@@ -7,6 +7,7 @@ import type { IconProps } from '../core';
 
 const renderIconsStory =
   (icons: Record<string, FC<IconProps>>, title?: string, outline = false) =>
+  // eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
   () => {
     const [isFill, setIsFill] = useState(false);
 

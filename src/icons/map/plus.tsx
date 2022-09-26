@@ -7,14 +7,14 @@ const Plus = (property: IconProps): ReturnType<React.FC> => {
 
   return (
     <svg viewBox="0 0 17 16" fill="none" {...props}>
-      <g clipPath="url(#gd9-a)">
+      <g clipPath="url(#fnd-a)">
         <path
           clipRule="evenodd"
           d="M8.015 0c.348 0 .631.283.631.632v6.736h6.737a.632.632 0 0 1 0 1.264H8.646v6.736a.632.632 0 0 1-1.263 0V8.632H.646a.632.632 0 0 1 0-1.264h6.737V.632c0-.35.283-.632.632-.632Z"
         />
       </g>
       <defs>
-        <clipPath id="gd9-a">
+        <clipPath id="fnd-a">
           <path fill="#fff" transform="translate(.003)" d="M0 0h16v16H0z" />
         </clipPath>
       </defs>
