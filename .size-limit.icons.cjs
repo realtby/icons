@@ -761,6 +761,12 @@ module.exports = [
     running: false,
   },
   {
+    name: '> tree-shaking: ShareMobileIcon',
+    path: './dist/icons.esm.js',
+    import: '{ ShareMobileIcon }',
+    running: false,
+  },
+  {
     name: '> tree-shaking: SiteIcon',
     path: './dist/icons.esm.js',
     import: '{ SiteIcon }',
