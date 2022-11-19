@@ -15,3 +15,6 @@ export { default as InfoIcon } from './status/info';
 export { default as MoreIcon } from './object/card/more';
 export { default as FlameIcon } from './object/card/flame';
 export { default as FullscreenIcon } from './map/fullscreen';
+export { default as TelegramIcon } from './socials/telegram';
+export { default as ViberIcon } from './socials/viber';
+export { default as WhatsappIcon } from './socials/whatsapp';
