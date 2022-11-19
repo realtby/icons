@@ -34,7 +34,13 @@ const renderIconsStory =
         >
           {Object.entries(icons).map(([name, Icon]) => (
             <div key={name} className="icon-wrapper">
-              <Icon {...adjustSize(Icon.defaultProps, 48, outline)} className={cn({ outline })} />
+              <div
+                title={`default size: ${Icon.defaultProps?.width || 0} x ${
+                  Icon.defaultProps?.height || 0
+                }`}
+              >
+                <Icon {...adjustSize(Icon.defaultProps, 48, outline)} className={cn({ outline })} />
+              </div>
               <p className="sign">{name.replace('Icon', '')}</p>
             </div>
           ))}
