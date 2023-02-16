@@ -8,6 +8,7 @@ export { default as InstagramIcon } from './instagram';
 export { default as LinkIcon } from './link';
 export { default as OkIcon } from './ok';
 export { default as TelegramIcon } from './telegram';
+export { default as TelegramWhiteIcon } from './telegram-white';
 export { default as TwitterIcon } from './twitter';
 export { default as ViberIcon } from './viber';
 export { default as VkIcon } from './vk';

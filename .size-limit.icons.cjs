@@ -828,6 +828,12 @@ module.exports = [
     running: false,
   },
   {
+    name: '> tree-shaking: TelegramWhiteIcon',
+    path: './dist/icons.esm.js',
+    import: '{ TelegramWhiteIcon }',
+    running: false,
+  },
+  {
     name: '> tree-shaking: TwitterIcon',
     path: './dist/icons.esm.js',
     import: '{ TwitterIcon }',
