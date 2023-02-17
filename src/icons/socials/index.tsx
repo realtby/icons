@@ -7,6 +7,7 @@ export { default as InstagramNoFillIcon } from './instagram-no-fill';
 export { default as InstagramIcon } from './instagram';
 export { default as LinkIcon } from './link';
 export { default as OkIcon } from './ok';
+export { default as SiteIcon } from './site';
 export { default as TelegramIcon } from './telegram';
 export { default as TelegramWhiteIcon } from './telegram-white';
 export { default as TwitterIcon } from './twitter';

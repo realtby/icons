@@ -19,3 +19,4 @@ export { default as TelegramIcon } from './socials/telegram';
 export { default as TelegramWhiteIcon } from './socials/telegram-white';
 export { default as ViberIcon } from './socials/viber';
 export { default as WhatsappIcon } from './socials/whatsapp';
+export { default as SiteIcon } from './socials/site';

@@ -4,5 +4,4 @@ export { default as NotIndicatedIcon } from './not-indicated';
 export { default as PhonesIcon } from './phones';
 export { default as ProfessionalIcon } from './professional';
 export { default as ProhibitedIcon } from './prohibited';
-export { default as SiteIcon } from './site';
 export { default as WorkerIcon } from './worker';
