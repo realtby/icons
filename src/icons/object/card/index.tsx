@@ -17,3 +17,5 @@ export { default as NumberPhoneIcon } from './number-phone';
 export { default as PaidIcon } from './paid';
 export { default as PedestrianIcon } from './pedestrian';
 export { default as UpdateIcon } from './update';
+export { default as ZoomMinusIcon } from './zoom-minus';
+export { default as ZoomPlusIcon } from './zoom-plus';

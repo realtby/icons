@@ -25,3 +25,5 @@ export { default as ViberIcon } from './socials/viber';
 export { default as WhatsappIcon } from './socials/whatsapp';
 export { default as CarIcon } from './object/card/car';
 export { default as DirectionIcon } from './map/direction';
+export { default as ZoomPlus } from './object/card/zoom-plus';
+export { default as ZoomMinus } from './object/card/zoom-minus';
