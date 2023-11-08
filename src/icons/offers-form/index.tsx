@@ -1,0 +1,15 @@
+export { default as OffersAreaIcon } from './offers-area';
+export { default as OffersCommercialIcon } from './offers-commercial';
+export { default as OffersCottageIcon } from './offers-cottage';
+export { default as OffersCountryHouseIcon } from './offers-country-house';
+export { default as OffersDailyIcon } from './offers-daily';
+export { default as OffersFlatIcon } from './offers-flat';
+export { default as OffersGarageIcon } from './offers-garage';
+export { default as OffersHalfHouseIcon } from './offers-half-house';
+export { default as OffersHouseIcon } from './offers-house';
+export { default as OffersKeyIcon } from './offers-key';
+export { default as OffersLivingIcon } from './offers-living';
+export { default as OffersLongRentIcon } from './offers-long-rent';
+export { default as OffersRoomIcon } from './offers-room';
+export { default as OffersShareIcon } from './offers-share';
+export { default as OffersTownhouseIcon } from './offers-townhouse';

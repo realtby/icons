@@ -10,3 +10,4 @@ export * from './object';
 export * from './sidebar';
 export * from './socials';
 export * from './status';
+export * from './offers-form';
