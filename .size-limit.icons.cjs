@@ -1220,12 +1220,6 @@ module.exports = [
     running: false,
   },
   {
-    name: '> tree-shaking: TimeIcon',
-    path: './dist/icons.esm.js',
-    import: '{ TimeIcon }',
-    running: false,
-  },
-  {
     name: '> tree-shaking: UpIcon',
     path: './dist/icons.esm.js',
     import: '{ UpIcon }',
@@ -1247,6 +1241,12 @@ module.exports = [
     name: '> tree-shaking: ZoomPlusIcon',
     path: './dist/icons.esm.js',
     import: '{ ZoomPlusIcon }',
+    running: false,
+  },
+  {
+    name: '> tree-shaking: TimeSmallIcon',
+    path: './dist/icons.esm.js',
+    import: '{ TimeSmallIcon }',
     running: false,
   },
 ];
