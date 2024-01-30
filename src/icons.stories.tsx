@@ -13,6 +13,7 @@ import * as sidebar from './icons/sidebar';
 import * as socials from './icons/socials';
 import * as status from './icons/status';
 import * as redesign from './icons/redesign';
+import * as services from './icons/services';
 
 import './stories/index.css';
 import renderIconsStory from './stories/render';
@@ -33,6 +34,7 @@ export const All = () => (
     <Sidebar />
     <Socials />
     <Status />
+    <Services />
   </>
 );
 export const Redesigned = renderIconsStory(redesign, 'redesigned', true);
@@ -48,6 +50,7 @@ export const Objects = renderIconsStory(objects, 'objects');
 export const Sidebar = renderIconsStory(sidebar, 'sidebar');
 export const Socials = renderIconsStory(socials, 'socials');
 export const Status = renderIconsStory(status, 'status');
+export const Services = renderIconsStory(services, 'services');
 
 const meta: Meta = {
   title: 'Icons',
