@@ -12,6 +12,7 @@ export { default as PasswordChangeIcon } from './password-change';
 export { default as PaymentsIcon } from './payments';
 export { default as ProfileProIcon } from './profile-pro';
 export { default as ProfileIcon } from './profile';
+export { default as ReportIcon } from './report';
 export { default as SavedFiltersIcon } from './saved-filters';
 export { default as ServiceInfoIcon } from './service-info';
 export { default as SocialNetworksIcon } from './social-networks';
