@@ -6,7 +6,7 @@ const CopyOfferBrand = (property: IconProps): ReturnType<React.FC> => {
   const props = castIconProps(property);
 
   return (
-    <svg fill="none" {...props}>
+    <svg viewBox="0 0 24 24" {...props}>
       <path
         fillRule="evenodd"
         clipRule="evenodd"
@@ -16,11 +16,13 @@ const CopyOfferBrand = (property: IconProps): ReturnType<React.FC> => {
       <path
         d="M21 16a3 3 0 0 1-3 3h-6a3 3 0 0 1-3-3V5.5a3 3 0 0 1 3-3h6a3 3 0 0 1 3 3V16Z"
         stroke="#1D2126"
+        fill="none"
         strokeWidth={1.5}
       />
       <path
         d="M16 18.5a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3v-10a3 3 0 0 1 3-3h3"
         stroke="#1D2126"
+        fill="none"
         strokeWidth={1.5}
       />
       <path
