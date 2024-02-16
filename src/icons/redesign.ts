@@ -36,4 +36,5 @@ export { default as SearchSmallIcon } from './object/my-object/search-small';
 export { default as TimeSmallIcon } from './object/my-object/time-small';
 export { default as UpIcon } from './object/my-object/up';
 export { default as UpdateSmallIcon } from './object/my-object/update-small';
+export { default as AutoRenewIcon } from './object/my-object/auto-renew';
 export { default as CopyOfferIcon } from './services/copy-offer';

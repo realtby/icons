@@ -1339,4 +1339,10 @@ module.exports = [
     import: '{ OffersStorageIcon }',
     running: false,
   },
+  {
+    name: '> tree-shaking: AutoRenewIcon',
+    path: './dist/icons.esm.js',
+    import: '{ AutoRenewIcon }',
+    running: false,
+  },
 ];
