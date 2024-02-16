@@ -7,3 +7,4 @@ export { default as SearchSmallIcon } from './search-small';
 export { default as TimeSmallIcon } from './time-small';
 export { default as UpIcon } from './up';
 export { default as UpdateSmallIcon } from './update-small';
+export { default as AutoRenewIcon } from './auto-renew';
