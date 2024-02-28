@@ -1345,4 +1345,28 @@ module.exports = [
     import: '{ AutoRenewIcon }',
     running: false,
   },
+  {
+    name: '> tree-shaking: CopyOfferBrandIcon',
+    path: './dist/icons.esm.js',
+    import: '{ CopyOfferBrandIcon }',
+    running: false,
+  },
+  {
+    name: '> tree-shaking: ExchangeBrandIcon',
+    path: './dist/icons.esm.js',
+    import: '{ ExchangeBrandIcon }',
+    running: false,
+  },
+  {
+    name: '> tree-shaking: ExchangeIcon',
+    path: './dist/icons.esm.js',
+    import: '{ ExchangeIcon }',
+    running: false,
+  },
+  {
+    name: '> tree-shaking: ReportIcon',
+    path: './dist/icons.esm.js',
+    import: '{ ReportIcon }',
+    running: false,
+  },
 ];
