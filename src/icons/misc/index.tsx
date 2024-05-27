@@ -28,3 +28,4 @@ export { default as SuccessRoundedIcon } from './success-rounded';
 export { default as ThreeDIcon } from './three-d';
 export { default as VideoIcon } from './video';
 export { default as VisibleIcon } from './visible';
+export { default as FlameFillIcon } from './flame-fill';

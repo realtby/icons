@@ -1369,4 +1369,52 @@ module.exports = [
     import: '{ ReportIcon }',
     running: false,
   },
+  {
+    name: '> tree-shaking: FlameFillIcon',
+    path: './dist/icons.esm.js',
+    import: '{ FlameFillIcon }',
+    running: false,
+  },
+  {
+    name: '> tree-shaking: HideCompetitorsBrandIcon',
+    path: './dist/icons.esm.js',
+    import: '{ HideCompetitorsBrandIcon }',
+    running: false,
+  },
+  {
+    name: '> tree-shaking: HideCompetitorsIcon',
+    path: './dist/icons.esm.js',
+    import: '{ HideCompetitorsIcon }',
+    running: false,
+  },
+  {
+    name: '> tree-shaking: HideCompetitorsMenuBrandIcon',
+    path: './dist/icons.esm.js',
+    import: '{ HideCompetitorsMenuBrandIcon }',
+    running: false,
+  },
+  {
+    name: '> tree-shaking: RecommendOfferBrandIcon',
+    path: './dist/icons.esm.js',
+    import: '{ RecommendOfferBrandIcon }',
+    running: false,
+  },
+  {
+    name: '> tree-shaking: RecommendOfferIcon',
+    path: './dist/icons.esm.js',
+    import: '{ RecommendOfferIcon }',
+    running: false,
+  },
+  {
+    name: '> tree-shaking: RecommendOfferMenuBrandIcon',
+    path: './dist/icons.esm.js',
+    import: '{ RecommendOfferMenuBrandIcon }',
+    running: false,
+  },
+  {
+    name: '> tree-shaking: ReportsMenuBrandIcon',
+    path: './dist/icons.esm.js',
+    import: '{ ReportsMenuBrandIcon }',
+    running: false,
+  },
 ];
