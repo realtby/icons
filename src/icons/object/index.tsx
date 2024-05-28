@@ -9,6 +9,7 @@ export { default as PriceIcon } from './price';
 export { default as RegionIcon } from './region';
 export { default as StreetLineIcon } from './street-line';
 export { default as StreetIcon } from './street';
+export { default as TeaserEditIcon } from './teaser-edit';
 export * from './card';
 export * from './search';
 export * from './my-object';
