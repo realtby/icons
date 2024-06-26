@@ -39,3 +39,4 @@ export { default as UpdateSmallIcon } from './object/my-object/update-small';
 export { default as AutoRenewIcon } from './object/my-object/auto-renew';
 export { default as CopyOfferIcon } from './services/copy-offer';
 export { default as FlameFillIcon } from './misc/flame-fill';
+export { default as SendFillIcon } from './messages/send-fill';

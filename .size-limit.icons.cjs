@@ -1417,4 +1417,10 @@ module.exports = [
     import: '{ ReportsMenuBrandIcon }',
     running: false,
   },
+  {
+    name: '> tree-shaking: SendFillIcon',
+    path: './dist/icons.esm.js',
+    import: '{ SendFillIcon }',
+    running: false,
+  },
 ];
